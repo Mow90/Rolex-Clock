@@ -37,7 +37,7 @@ img {
   border-radius: 50%;
   border: 5px solid goldenrod;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
-  background-image: url(/Clock/watch-numbers.png);
+  background-image: url(/watch-numbers.png);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
