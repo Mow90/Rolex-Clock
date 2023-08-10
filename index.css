@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Diphylleia&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffcba01d;
+  font-family: "EB Garamond", serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+.clock {
+  position: relative;
+  background-color: #ffcba072;
+  color: goldenrod;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: 5px solid goldenrod;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+  background-image: url(/Clock/watch-numbers.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hours {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  height: 4px;
+  width: 30%;
+  background-color: goldenrod;
+  border-radius: 40%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  z-index: 3;
+}
+.minutes {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  height: 4px;
+  width: 35%;
+  background-color: goldenrod;
+  border-radius: 40%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  z-index: 4;
+}
+.seconds {
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  height: 4px;
+  width: 40%;
+  background-color: rgb(0, 0, 0);
+  border-radius: 40%;
+  transform: rotate(-90deg);
+  transform-origin: left;
+  z-index: 5;
+}
